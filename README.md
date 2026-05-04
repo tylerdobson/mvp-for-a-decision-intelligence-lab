@@ -137,6 +137,7 @@ decision-intelligence-lab/
 - Scenario analysis uses simple elasticity assumptions for explainability.
 - Recommendations are rule-based and tied to visible metrics.
 - The sample dataset is synthetic and should not be used for real financial decisions.
+- The sample CSV and SQLite database can be regenerated locally with `python scripts/setup_database.py`.
 
 ## Future Improvements
 
