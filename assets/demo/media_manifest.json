@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-05-04T23:38:51.489942+00:00",
+  "app_url": "http://127.0.0.1:8509",
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "device_scale_factor": 2,
+  "media": [
+    {
+      "file": "hero.png",
+      "bytes": 1387613
+    },
+    {
+      "file": "dashboard-overview.png",
+      "bytes": 1407635
+    },
+    {
+      "file": "kpi-explorer.png",
+      "bytes": 1316853
+    },
+    {
+      "file": "forecasting-lab.png",
+      "bytes": 1236161
+    },
+    {
+      "file": "scenario-analysis.png",
+      "bytes": 1373344
+    },
+    {
+      "file": "executive-recommendations.png",
+      "bytes": 990117
+    },
+    {
+      "file": "data-explorer.png",
+      "bytes": 1302383
+    },
+    {
+      "file": "demo.webm",
+      "bytes": 4806811
+    },
+    {
+      "file": "demo-poster.png",
+      "bytes": 1407635
+    },
+    {
+      "file": "linkedin-cover.png",
+      "bytes": 1407635
+    }
+  ],
+  "notes": "Synthetic demo data only. Forecasts are directional and not guaranteed predictions."
+}

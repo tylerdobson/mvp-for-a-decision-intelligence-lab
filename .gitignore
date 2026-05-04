@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.deps/
+.env
+.DS_Store
+.streamlit/secrets.toml
+streamlit_live.pid
+streamlit_live.out.log
+streamlit_live.err.log
+playwright-report/
+test-results/
+*.sqbpro
+data/business_data full mvp.csv
