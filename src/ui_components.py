@@ -1,4 +1,4 @@
-"""Reusable Streamlit UI components for Decision Intelligence Lab."""
+"""Reusable Streamlit UI components for Retail KPI & Forecasting Sandbox."""
 
 from __future__ import annotations
 
@@ -193,7 +193,7 @@ def render_hero(record_count: int, date_min: str, date_max: str) -> None:
             f"<p>{APP_TAGLINE} This dashboard turns operating data into KPIs, forecasts, "
             "scenario analysis, and explainable recommendations so a user can decide what to do next.</p>"
             '<div class="dil-badge-row">'
-            f'<span class="dil-badge">{record_count:,} synthetic records</span>'
+            f'<span class="dil-badge">{record_count:,} modeled records</span>'
             f'<span class="dil-badge">{html.escape(date_min)} to {html.escape(date_max)}</span>'
             '<span class="dil-badge">SQLite + Streamlit + Plotly</span>'
             '<span class="dil-badge">Rule-based recommendations</span>'

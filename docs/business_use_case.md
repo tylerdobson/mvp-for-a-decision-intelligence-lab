@@ -56,4 +56,4 @@ The app lets a user test assumptions before making a decision. For example:
 
 ## Business Value
 
-Decision Intelligence Lab demonstrates how analytics can move beyond reporting. It connects metrics to decisions, explains the logic behind recommendations, and gives users a structured way to test business assumptions.
+Retail KPI & Forecasting Sandbox demonstrates how analytics can move beyond reporting. It connects metrics to decisions, explains the logic behind recommendations, and gives users a structured way to test business assumptions.

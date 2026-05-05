@@ -1,4 +1,4 @@
-"""Generate deterministic sample business data for Decision Intelligence Lab."""
+"""Generate deterministic sample retail operating data for Retail KPI & Forecasting Sandbox."""
 
 from __future__ import annotations
 

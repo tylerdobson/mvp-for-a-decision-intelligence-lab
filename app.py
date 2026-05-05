@@ -1,4 +1,4 @@
-"""Streamlit dashboard for Decision Intelligence Lab."""
+"""Streamlit dashboard for Retail KPI & Forecasting Sandbox."""
 
 from __future__ import annotations
 
@@ -75,8 +75,8 @@ def _section_index_from_query() -> int:
 
 def _render_sidebar(data: pd.DataFrame) -> tuple[str, pd.DataFrame]:
     options = get_filter_options(data)
-    st.sidebar.title("Decision Lab")
-    st.sidebar.caption("Filter the synthetic business dataset, then move through the decision workflow.")
+    st.sidebar.title("Retail KPI Sandbox")
+    st.sidebar.caption("Filter the modeled retail operating data, then move through the decision workflow.")
 
     section_label = st.sidebar.radio(
         "Navigate",
@@ -124,7 +124,7 @@ def _render_sidebar(data: pd.DataFrame) -> tuple[str, pd.DataFrame]:
         st.sidebar.caption(
             f"Filtered window: {filtered['month'].min().date()} to {filtered['month'].max().date()}"
         )
-    st.sidebar.caption("Dataset is synthetic and safe for public demos.")
+    st.sidebar.caption("Modeled retail data is safe for public demos.")
     return section_label, filtered
 
 
@@ -400,7 +400,7 @@ def render_recommendations(
 def render_data_explorer(filtered_data: pd.DataFrame) -> None:
     render_section_header(
         "Data Explorer",
-        "A clean view of the filtered synthetic demo dataset. Use exports for deeper analysis.",
+        "A clean view of the filtered modeled retail data. Use exports for deeper analysis.",
     )
     search = st.text_input("Search region, category, or segment", "")
     table = filtered_data.copy()
@@ -412,7 +412,7 @@ def render_data_explorer(filtered_data: pd.DataFrame) -> None:
         )
         table = table[mask]
 
-    render_callout("Dataset note", "This is deterministic synthetic data created for public portfolio demonstration.")
+    render_callout("Dataset note", "This is deterministic modeled retail data created for public demonstration.")
     display = _format_display_table(table).sort_values("month", ascending=False)
     st.dataframe(
         display.head(250),
@@ -510,7 +510,7 @@ def render_about(data: pd.DataFrame) -> None:
     st.markdown(
         f"""
 ### Why this project exists
-Decision Intelligence Lab demonstrates a complete analytics workflow: generate realistic demo data, store it in SQLite, calculate KPIs, forecast revenue, run scenarios, and translate metrics into executive recommendations.
+Retail KPI & Forecasting Sandbox demonstrates a complete analytics workflow: generate realistic demo data, store it in SQLite, calculate KPIs, forecast revenue, run scenarios, and translate metrics into executive recommendations.
 
 ### What it demonstrates
 - Python analytics engineering with pandas and SQLite.
@@ -518,12 +518,12 @@ Decision Intelligence Lab demonstrates a complete analytics workflow: generate r
 - Plotly dashboard visualization.
 - Explainable forecasting and scenario modeling.
 - Rule-based recommendation logic.
-- Documentation and media workflow for portfolio proof.
+- Documentation and media workflow for public validation.
 
 ### Current dataset
 - Records: {len(data):,}
 - Date range: {data['month'].min().date()} to {data['month'].max().date()}
-- Public-safe synthetic data only.
+- Public-safe modeled retail data only.
         """
     )
 

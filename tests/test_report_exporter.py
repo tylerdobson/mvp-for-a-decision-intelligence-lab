@@ -45,4 +45,4 @@ def test_export_helpers_create_expected_shapes() -> None:
     assert "Revenue" in set(kpi_summary_frame(kpis)["metric"])
     assert recommendations_frame(recommendations).shape == (1, 5)
     assert scenario_frame(scenario).shape[0] == 4
-    assert "Decision Intelligence Lab Executive Summary" in executive_summary_markdown(kpis, recommendations, scenario)
+    assert "Retail KPI & Forecasting Sandbox Executive Summary" in executive_summary_markdown(kpis, recommendations, scenario)

@@ -1,6 +1,6 @@
 # Methodology
 
-Decision Intelligence Lab is designed for explainable decision support. The methods are intentionally practical and transparent rather than overly complex.
+Retail KPI & Forecasting Sandbox is designed for explainable decision support. The methods are intentionally practical and transparent rather than overly complex.
 
 ## KPI Method
 
@@ -86,7 +86,7 @@ Each recommendation includes:
 
 ## Limitations
 
-- The dataset is synthetic.
+- The dataset is modeled and deterministic for public demo use.
 - Forecasts are directional and should be validated with actual results.
 - Scenario assumptions are simplified.
 - Recommendation rules are explainable but not exhaustive.

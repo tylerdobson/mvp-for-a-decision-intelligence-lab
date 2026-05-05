@@ -1,4 +1,4 @@
-"""Capture portfolio screenshots and video for Decision Intelligence Lab.
+"""Capture portfolio screenshots and video for Retail KPI & Forecasting Sandbox.
 
 The script starts the Streamlit app, captures public-safe demo screenshots with
 Playwright, records a short walkthrough video, and writes a media manifest.
@@ -169,7 +169,7 @@ def _open_section(page, section: str) -> None:
     while time.time() < deadline:
         try:
             body_text = page.locator("body").inner_text(timeout=2_000)
-            if "Decision Intelligence Lab" in body_text:
+            if "Retail KPI & Forecasting Sandbox" in body_text:
                 break
         except Exception:
             pass

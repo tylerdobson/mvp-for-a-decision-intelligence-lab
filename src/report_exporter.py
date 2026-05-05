@@ -65,7 +65,7 @@ def executive_summary_markdown(
     """Build a concise Markdown executive summary for download."""
 
     buffer = StringIO()
-    buffer.write("# Decision Intelligence Lab Executive Summary\n\n")
+    buffer.write("# Retail KPI & Forecasting Sandbox Executive Summary\n\n")
     buffer.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
     buffer.write("## KPI Snapshot\n\n")
     buffer.write(f"- Revenue: {format_currency(float(kpis['revenue']))}\n")
@@ -93,7 +93,7 @@ def executive_summary_markdown(
 
     buffer.write("## Limitation\n\n")
     buffer.write(
-        "This summary uses synthetic demo data and directional models. "
+        "This summary uses modeled demo data and directional models. "
         "It is decision support, not a guaranteed prediction.\n"
     )
     return buffer.getvalue()

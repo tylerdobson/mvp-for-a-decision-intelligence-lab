@@ -1,8 +1,8 @@
 # GitHub Project Announcement
 
-## Decision Intelligence Lab
+## Retail KPI & Forecasting Sandbox
 
-Decision Intelligence Lab is a portfolio-ready Streamlit analytics product that turns synthetic business data into KPIs, forecasts, scenario analysis, exports, and executive recommendations.
+Retail KPI & Forecasting Sandbox is a Streamlit analytics workflow that turns modeled retail operating data into KPIs, forecasts, scenario analysis, exports, and executive recommendations.
 
 The main idea: do not just show charts. Help answer what decision someone should make next.
 
@@ -29,7 +29,7 @@ Tech stack:
 - Playwright
 - pytest
 
-This project is built as a public-safe analytics portfolio piece. It uses deterministic synthetic data and does not require external APIs, paid services, private credentials, or real financial data.
+This project is built as a public-safe analytics project. It uses deterministic modeled data and does not require external APIs, paid services, private credentials, or real financial data.
 
 Repository:
 

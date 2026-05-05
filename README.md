@@ -1,4 +1,4 @@
-# Decision Intelligence Lab
+# Retail KPI & Forecasting Sandbox
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Portfolio%20dashboard-FF4B4B?logo=streamlit&logoColor=white)
@@ -6,18 +6,20 @@
 ![Tests](https://img.shields.io/badge/Tests-pytest-0f6b5f)
 ![License](https://img.shields.io/badge/License-MIT-111827)
 
-Decision Intelligence Lab is a portfolio-grade Streamlit analytics product that turns synthetic business data into KPIs, forecasts, scenario analysis, exports, and executive-style recommendations. The core idea is simple: do not just show charts, help answer what decision someone should make next.
+Retail KPI & Forecasting Sandbox is a Streamlit analytics workflow that turns modeled retail operating data into KPIs, forecast ranges, scenario analysis, exports, and executive-style recommendations. The core idea is simple: do not just show charts, help answer what decision someone should make next.
 
-![Decision Intelligence Lab hero screenshot](assets/demo/hero.png)
+Finding: The recommendation engine flags low-margin, high-volume segments as a risk; one example action is to improve product economics before pushing more volume.
+
+![Retail KPI and Forecasting Sandbox hero screenshot](assets/demo/hero.png)
 
 ## Demo
 
 - Walkthrough video: [assets/demo/demo.webm](assets/demo/demo.webm)
 - Optional MP4 export: `assets/demo/demo.mp4` is created when `ffmpeg` is installed.
 - Screenshot set: [assets/demo](assets/demo)
-- Portfolio proof notes: [docs/PORTFOLIO_PROOF.md](docs/PORTFOLIO_PROOF.md)
+- Validation notes: [docs/PORTFOLIO_PROOF.md](docs/PORTFOLIO_PROOF.md)
 
-[![Decision Intelligence Lab demo video poster](assets/demo/demo-poster.png)](assets/demo/demo.webm)
+[![Retail KPI and Forecasting Sandbox demo video poster](assets/demo/demo-poster.png)](assets/demo/demo.webm)
 
 ## Screenshots
 
@@ -37,7 +39,7 @@ Decision Intelligence Lab is a portfolio-grade Streamlit analytics product that 
 
 - Polished Streamlit dashboard with sidebar navigation and product-style sections.
 - SQLite-backed local analytics database.
-- Deterministic synthetic business dataset with 1,728 records.
+- Deterministic modeled retail operating dataset with 1,728 records.
 - Executive Overview with KPI cards, insight cards, and a recommended next action.
 - KPI Explorer with date, region, product category, and customer segment filters.
 - Revenue & Profit Trends with monthly financial, margin, cost, and unit views.
@@ -51,7 +53,7 @@ Decision Intelligence Lab is a portfolio-grade Streamlit analytics product that 
 
 ## Business Problem
 
-Many dashboards show what happened but do not help a business user decide what to do next. Decision Intelligence Lab demonstrates a practical analytics workflow for a small business or analyst team:
+Many dashboards show what happened but do not help a business user decide what to do next. Retail KPI & Forecasting Sandbox demonstrates a practical analytics workflow for a small business or analyst team:
 
 - Understand performance across revenue, profit, margin, cost, retention, and units.
 - Identify strongest and weakest regions, categories, and customer segments.
@@ -62,7 +64,7 @@ Many dashboards show what happened but do not help a business user decide what t
 ## How It Works
 
 ```text
-Synthetic business data
+Modeled retail operating data
   -> SQLite database
   -> Streamlit data loader and filters
   -> KPI, forecast, scenario, and recommendation engines
@@ -203,14 +205,14 @@ decision-intelligence-lab/
 
 ## Assumptions And Limitations
 
-- The dataset is synthetic and deterministic.
+- The dataset is modeled and deterministic for public demo use.
 - Forecasts are directional planning estimates, not guaranteed predictions.
 - Scenario results use transparent elasticity assumptions, not a causal model.
 - Recommendations are rule-based and explainable.
 - The app is designed for small business, student analyst, and portfolio use cases.
 - No external APIs, paid services, private data, or credentials are required.
 
-## Portfolio Value
+## Project Value
 
 This project demonstrates:
 
@@ -220,7 +222,7 @@ This project demonstrates:
 - Streamlit dashboard design beyond raw dataframe display.
 - Forecasting and scenario modeling with clear limitations.
 - Explainable recommendation logic tied to visible metrics.
-- Professional README, proof docs, media assets, and social launch copy.
+- Professional README, validation docs, media assets, and social launch copy.
 
 ## Future Improvements
 

@@ -1,6 +1,6 @@
 # Architecture
 
-Decision Intelligence Lab is intentionally small, modular, and explainable. The app separates storage, analytics logic, visualization, exports, and presentation so the project is easy to run, test, and discuss in interviews.
+Retail KPI & Forecasting Sandbox is intentionally small, modular, and explainable. The app separates storage, analytics logic, visualization, exports, and presentation so the project is easy to run, test, and discuss in interviews.
 
 ## System Flow
 
@@ -80,4 +80,4 @@ The output includes estimated revenue, profit, gross margin, retention, risk lev
 - Synthetic public-safe data only.
 - Local-first setup with no API keys.
 - Tests for business logic.
-- Media proof that the app actually runs.
+- Validation media that the app actually runs.

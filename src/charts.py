@@ -1,4 +1,4 @@
-"""Plotly chart builders for the Decision Intelligence Lab dashboard."""
+"""Plotly chart builders for the Retail KPI & Forecasting Sandbox dashboard."""
 
 from __future__ import annotations
 
@@ -29,7 +29,7 @@ def _empty_figure(message: str) -> go.Figure:
 
 
 def apply_chart_theme(fig: go.Figure, height: int = 420) -> go.Figure:
-    """Apply a consistent portfolio-ready visual theme to Plotly figures."""
+    """Apply a consistent review-ready visual theme to Plotly figures."""
 
     fig.update_layout(
         height=height,

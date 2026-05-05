@@ -1,6 +1,6 @@
 # Setup Guide
 
-Decision Intelligence Lab runs locally with Python, Streamlit, pandas, Plotly, SQLite, and pytest. It does not require external APIs, paid services, or credentials.
+Retail KPI & Forecasting Sandbox runs locally with Python, Streamlit, pandas, Plotly, SQLite, and pytest. It does not require external APIs, paid services, or credentials.
 
 ## Mac/Linux
 

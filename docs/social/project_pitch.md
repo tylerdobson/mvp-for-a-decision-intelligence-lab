@@ -1,6 +1,6 @@
 # Project Pitch
 
-Decision Intelligence Lab is a business analytics dashboard that moves beyond reporting. It takes a realistic synthetic business dataset and turns it into KPIs, forecasts, scenario analysis, exports, and executive recommendations.
+Retail KPI & Forecasting Sandbox is a business analytics dashboard that moves beyond reporting. It takes modeled retail operating data and turns it into KPIs, forecasts, scenario analysis, exports, and executive recommendations.
 
 The project is built with Python, Streamlit, pandas, SQLite, Plotly, NumPy, Playwright, and pytest. It is designed to be easy to run locally, safe to show publicly, and strong enough for a GitHub or LinkedIn portfolio.
 

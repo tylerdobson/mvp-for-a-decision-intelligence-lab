@@ -1,4 +1,4 @@
-"""SQLite database utilities for Decision Intelligence Lab."""
+"""SQLite database utilities for Retail KPI & Forecasting Sandbox."""
 
 from __future__ import annotations
 

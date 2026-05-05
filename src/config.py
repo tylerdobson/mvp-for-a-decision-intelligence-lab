@@ -1,14 +1,14 @@
-"""Application configuration for Decision Intelligence Lab."""
+"""Application configuration for Retail KPI & Forecasting Sandbox."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 
 
-APP_TITLE = "Decision Intelligence Lab"
+APP_TITLE = "Retail KPI & Forecasting Sandbox"
 APP_TAGLINE = "From metrics to decisions, not just charts."
 APP_SUMMARY = (
-    "A reusable Streamlit analytics product that turns synthetic business data "
+    "A reusable Streamlit analytics workflow that turns modeled retail operating data "
     "into KPIs, forecasts, scenario analysis, and executive recommendations."
 )
 
@@ -50,7 +50,7 @@ NAV_SECTIONS = [
     Section("Forecasting Lab", "forecasting-lab", "Directional 3 to 6 month revenue forecast."),
     Section("Scenario Analysis", "scenario-analysis", "Decision simulation for business assumptions."),
     Section("Executive Recommendations", "executive-recommendations", "Rule-based recommendations with evidence."),
-    Section("Data Explorer", "data-explorer", "Filtered row-level synthetic dataset view."),
+    Section("Data Explorer", "data-explorer", "Filtered row-level retail operating data view."),
     Section("Export Center", "export-center", "Download data, KPIs, recommendations, and summary."),
     Section("Methodology / Assumptions", "methodology", "Methods, assumptions, definitions, and limitations."),
     Section("About This Project", "about", "Portfolio positioning and project overview."),

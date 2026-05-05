@@ -2,7 +2,7 @@
 
 ## Short Pitch
 
-Decision Intelligence Lab is a Streamlit analytics product that turns synthetic business data into KPIs, forecasts, scenario analysis, and executive recommendations. I built it to show that I can move beyond charting and create a tool that helps a business user decide what to do next.
+Retail KPI & Forecasting Sandbox is a Streamlit analytics workflow that turns modeled retail operating data into KPIs, forecasts, scenario analysis, and executive recommendations. I built it to show that I can move beyond charting and create a tool that helps a business user decide what to do next.
 
 ## Why I Built It
 
@@ -25,12 +25,12 @@ The app helps answer:
 - SQLite for local data storage.
 - Streamlit for the dashboard interface.
 - Plotly for charts.
-- Playwright for proof screenshots and demo video.
+- Playwright for validation screenshots and demo video.
 - pytest for testing business logic.
 
 ## How It Works
 
-The project starts with a deterministic synthetic data generator. The data is saved as CSV and loaded into SQLite. The dashboard loads filtered data and passes it into separate modules:
+The project starts with a deterministic retail operating data generator. The data is saved as CSV and loaded into SQLite. The dashboard loads filtered data and passes it into separate modules:
 
 - KPI engine for revenue, profit, margin, costs, retention, and trend calculations.
 - Forecasting engine for a transparent revenue forecast.
