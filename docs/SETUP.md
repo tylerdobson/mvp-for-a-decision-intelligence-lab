@@ -45,7 +45,7 @@ Install the Playwright browser runtime once:
 python -m playwright install chromium
 ```
 
-Capture portfolio media:
+Capture project media:
 
 ```bash
 python scripts/capture_decision_lab_media.py

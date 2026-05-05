@@ -16,7 +16,7 @@ This project turns modeled retail operating data into a reusable decision-suppor
 
 I built it with Python, Streamlit, pandas, SQLite, Plotly, NumPy, Playwright, and pytest.
 
-The goal was not to make another chart dashboard. The goal was to show how analytics can connect data, assumptions, and recommendations in a way that is useful for a small business, analyst team, or internship portfolio review.
+The goal was not to make another chart dashboard. The goal was to show how analytics can connect data, assumptions, and recommendations in a way that is useful for a small business, analyst team, or internship review.
 
 What I learned:
 

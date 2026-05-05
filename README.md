@@ -1,7 +1,7 @@
 # Retail KPI & Forecasting Sandbox
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-Portfolio%20dashboard-FF4B4B?logo=streamlit&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Analytics%20workflow-FF4B4B?logo=streamlit&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-Local%20analytics-003B57?logo=sqlite&logoColor=white)
 ![Tests](https://img.shields.io/badge/Tests-pytest-0f6b5f)
 ![License](https://img.shields.io/badge/License-MIT-111827)
@@ -71,7 +71,7 @@ Modeled retail operating data
   -> Dashboard, exports, screenshots, and demo video
 ```
 
-The recommendation engine is rule-based by design. Each recommendation includes a priority, evidence, and suggested action so the logic is easy to explain in interviews and safe for portfolio review.
+The recommendation engine is rule-based by design. Each recommendation includes a priority, evidence, and suggested action so the logic is easy to explain in interviews and safe for review.
 
 ## Tech Stack
 
@@ -209,7 +209,7 @@ decision-intelligence-lab/
 - Forecasts are directional planning estimates, not guaranteed predictions.
 - Scenario results use transparent elasticity assumptions, not a causal model.
 - Recommendations are rule-based and explainable.
-- The app is designed for small business, student analyst, and portfolio use cases.
+- The app is designed for small business, student analyst, and public demo use cases.
 - No external APIs, paid services, private data, or credentials are required.
 
 ## Project Value

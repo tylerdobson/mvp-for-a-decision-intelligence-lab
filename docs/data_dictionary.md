@@ -46,4 +46,4 @@ The generated dataset contains:
 - Regions have different demand, cost, and retention profiles.
 - Customer segments affect demand, price, and margin.
 - Seasonality and random-but-deterministic variation make trends more realistic.
-- The data is safe for public portfolio screenshots and should not be treated as real financial data.
+- The data is safe for public screenshots and should not be treated as real financial data.

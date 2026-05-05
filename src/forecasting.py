@@ -12,7 +12,7 @@ from src.utils import pct_change
 def forecast_revenue(df: pd.DataFrame, periods: int = 6, window: int = 3) -> pd.DataFrame:
     """Forecast monthly revenue using a transparent trend and moving-average blend.
 
-    This is intentionally simple for portfolio clarity. It is not a financial
+    This is intentionally simple for review clarity. It is not a financial
     prediction model and should be treated as directional decision support.
     """
 

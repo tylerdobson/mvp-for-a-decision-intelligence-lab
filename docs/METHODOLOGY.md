@@ -90,4 +90,4 @@ Each recommendation includes:
 - Forecasts are directional and should be validated with actual results.
 - Scenario assumptions are simplified.
 - Recommendation rules are explainable but not exhaustive.
-- The app is intended for portfolio, small-business, student, and analyst use cases.
+- The app is intended for small-business, student, analyst, and public demo use cases.

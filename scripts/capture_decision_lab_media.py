@@ -1,4 +1,4 @@
-"""Capture portfolio screenshots and video for Retail KPI & Forecasting Sandbox.
+"""Capture project screenshots and video for Retail KPI & Forecasting Sandbox.
 
 The script starts the Streamlit app, captures public-safe demo screenshots with
 Playwright, records a short walkthrough video, and writes a media manifest.

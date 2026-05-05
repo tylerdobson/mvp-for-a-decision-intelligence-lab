@@ -22,7 +22,7 @@ The company tracks:
 This app is designed for:
 
 - Business analysts
-- Student analysts building a portfolio
+- Student analysts building public project evidence
 - Small business operators
 - Product or growth teams
 - Internship interview reviewers evaluating analytics ability
