@@ -37,7 +37,7 @@ Finding: The recommendation engine flags low-margin, high-volume segments as a r
 
 ## Features
 
-- Polished Streamlit dashboard with sidebar navigation and product-style sections.
+- Polished dashboard with sidebar navigation and product-style sections.
 - SQLite-backed local analytics database.
 - Deterministic modeled retail operating dataset with 1,728 records.
 - Executive Overview with KPI cards, insight cards, and a recommended next action.
